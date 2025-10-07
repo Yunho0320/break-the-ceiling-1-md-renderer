@@ -1,26 +1,32 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <v-app>
+    <!-- Navigation Bar -->
+    <v-app-bar app color="#36558f" dark>
+      <v-tabs align-tabs="start">
+        <v-tab to="/home" replace>Home</v-tab>
+        <v-tab to="/tutorials" replace>Tutorials</v-tab>
+        <v-tab to="/about" replace>About</v-tab>
+      </v-tabs>
+    </v-app-bar>
+
+
+    <v-navigation-drawer app permanent width="250" color="#f0f4fa">
+      <v-list dense>
+        <v-list-item>
+          <v-list-item-title class="text-h6">Navigation</v-list-item-title>
+        </v-list-item>
+      </v-list>
+    </v-navigation-drawer>
+
+    <!-- Main Content Area -->
+    <v-main>
+      <router-view />
+    </v-main>
+  </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+  name: "App",
+};
 </script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
