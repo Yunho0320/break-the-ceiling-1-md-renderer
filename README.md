@@ -19,3 +19,6 @@ This project involves reading .md files and displaying each file on a separate p
 
 ## caution
 When I was building the ui module using **vue cli**, it created additional git within the ui module which caused a mess with branches as git recognised two modules (server and ui) to be on separate branches. Hence, it's important to remove git in the ui module after using vue cli.
+
+## note
+My website www.yunojava.com was built using this project as a base.
