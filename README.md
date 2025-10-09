@@ -13,8 +13,8 @@ This project involves reading .md files and displaying each file on a separate p
 
 ## run config (vm options)
 <ul>
-<li>-Dmarkdown.folder=C:\Dev\Workspace\personal_projects\markdown_parser\server\src\main\resources</li>
-<li>-Dresource.dir=C:\Dev\Workspace\personal_projects\markdown_parser\ui\dist </li>
+<li>-Dmarkdown.folder= (project location)\markdown_parser\server\src\main\resources</li>
+<li>-Dresource.dir=(project location)\markdown_parser\ui\dist </li>
 </ul>
 
 ## caution
