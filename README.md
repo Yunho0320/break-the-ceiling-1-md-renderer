@@ -4,6 +4,9 @@ break-the-ceiling is my personal project that explores various programming topic
 # md-renderer
 This project involves reading .md files and displaying each file on a separate page on the web.
 
+## rationale
+Full-stack development skills are essential for developers to design, build, and maintain complete end-to-end applications.
+
 ## tech stack
 <ul>
 <li>Java 21</li>
